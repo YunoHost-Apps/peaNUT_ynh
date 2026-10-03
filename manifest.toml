@@ -5,7 +5,7 @@ packaging_format = 2
 id = "peanut"
 name = "PeaNUT"
 description.en = "A tiny dashboard for Network UPS Tools"
-description.fr = "Tableau de bord de gestion d'onduleurs"
+description.fr = "Tableau de bord pour onduleurs"
 
 version = "6.0.0~ynh1"
 
