@@ -62,8 +62,8 @@ popd
 
 ynh_script_progression "Restoring configuration files..."
 
-    ynh_safe_rm "$install_dir/.next/standalone/config" 
-    mv /tmp/peanut_backup_conf "$install_dir/.next/standalone/config"
+    mv /tmp/peanut_backup_conf/* "$install_dir/.next/standalone/config"
+    ynh_safe_rm /tmp/peanut_backup_conf
 
 #=================================================
 # START SYSTEMD SERVICE
