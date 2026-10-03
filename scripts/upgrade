@@ -18,7 +18,7 @@ ynh_script_progression "Stopping $app's systemd service..."
 #=================================================
 ynh_script_progression "Backing up configuration files..."
 
-    mkir /tmp/peanut_backup_conf
+    mkdir /tmp/peanut_backup_conf
     cp -a "$install_dir/.next/standalone/config" /tmp/peanut_backup_conf
 
 ynh_script_progression "Upgrading source files..."
