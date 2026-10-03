@@ -17,6 +17,10 @@ A tiny dashboard for Network UPS Tools
 <a href="https://github.com/YunoHost-Apps/peanut_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
+
+## Screenshots
+![Screenshot of PeaNUT](./doc/screenshots/PeaNUT.png)
+
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/peanut)](https://ci-apps.yunohost.org/ci/apps/peanut/)
