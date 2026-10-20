@@ -7,7 +7,7 @@ name = "PeaNUT"
 description.en = "A tiny dashboard for Network UPS Tools"
 description.fr = "Tableau de bord pour onduleurs"
 
-version = "6.0.0~ynh1"
+version = "6.1.0~ynh1"
 
 maintainers = ["otm33GH"]
 
@@ -90,8 +90,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/Brandawg93/PeaNUT/archive/refs/tags/v6.0.0.tar.gz"
-    sha256 = "262c799bc41723191797175c469c872af3f96e9e9989220559712407d8b43a0b"
+    url = "https://github.com/Brandawg93/PeaNUT/archive/refs/tags/v6.1.0.tar.gz"
+    sha256 = "f038660a35318b03fafea411d5742b5ea758e939378f02b1456e12811226216d"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
