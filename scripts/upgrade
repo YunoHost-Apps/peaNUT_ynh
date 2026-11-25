@@ -19,7 +19,7 @@ ynh_script_progression "Stopping $app's systemd service..."
 ynh_script_progression "Backing up configuration files..."
 
     mkdir /tmp/peanut_backup_conf
-    cp -a "$install_dir/.next/standalone/config" /tmp/peanut_backup_conf
+    cp -a "$install_dir/.next/standalone/config/" /tmp/peanut_backup_conf
 
 ynh_script_progression "Upgrading source files..."
 
@@ -61,8 +61,7 @@ ynh_script_progression "Building the $app..."
 popd 
 
 ynh_script_progression "Restoring configuration files..."
-
-    mv /tmp/peanut_backup_conf/* "$install_dir/.next/standalone/config"
+    cp -a /tmp/peanut_backup_conf/. "$install_dir/.next/standalone/"
     ynh_safe_rm /tmp/peanut_backup_conf
 
 #=================================================
