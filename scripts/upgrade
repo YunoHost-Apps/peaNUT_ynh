@@ -61,8 +61,7 @@ ynh_script_progression "Building the $app..."
 popd 
 
 ynh_script_progression "Restoring configuration files..."
-
-    cp -a /tmp/peanut_backup_conf/. "$install_dir/.next/standalone/config"
+    cp -a /tmp/peanut_backup_conf/. "$install_dir/.next/standalone/"
     ynh_safe_rm /tmp/peanut_backup_conf
 
 #=================================================
