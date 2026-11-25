@@ -62,7 +62,7 @@ popd
 
 ynh_script_progression "Restoring configuration files..."
 
-    mv /tmp/peanut_backup_conf/* "$install_dir/.next/standalone/config"
+    cp -a /tmp/peanut_backup_conf/. "$install_dir/.next/standalone/config/"
     ynh_safe_rm /tmp/peanut_backup_conf
 
 #=================================================
